@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.App h1{
+  font-size: 3em;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.App select{
+  height: 30px;
+}
+
+.meme{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 0 auto;
+}
+
+.meme > span{
+  max-width: 400px;
+  max-height: 120px;
+  position: absolute;
+  top: 44%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px black;
+  overflow: hidden;
+}
+
+.meme span:last-of-type{
+  max-width: 390px;
+  max-height: 75px;
+  position: absolute;
+  top: 86%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px black;
+  overflow: hidden;
+}
+
+body, .meme{
+  background: rgb(45, 45, 48);
+}
+
+.lines{
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.lines input{
+  height: 30px;
+  width: 300px;
+}
